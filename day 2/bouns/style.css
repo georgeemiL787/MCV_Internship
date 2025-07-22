@@ -1,0 +1,28 @@
+body{
+
+    background-color: black;   
+}
+.container {
+    position: relative;
+    font-size: 50px;
+    color: white; 
+border-color: aliceblue;
+border-width: 2px;
+border-style: solid;
+text-align: center;
+height: 100px;
+width: 200px;
+padding: 20px;
+left: 45%;
+top: 40%;
+margin-top: 300px;
+}
+.card {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    background-color:rgb(0, 0, 0);
+    z-index: 1;
+    top: 55%;
+    left: 50%;
+}

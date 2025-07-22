@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b7ada7; /* approximate background color from the image */
+}
+
+.center-text {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: serif;
+} 

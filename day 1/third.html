@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+<body>
+  <h1>
+    <b>Contact Us</b>
+  </h1>
+  <br>
+  <form>
+    <label for="Full Name" >First Name: 
+    </label><br>
+    <input type="text" placeholder="your name" required><br><br>
+    <label for="email">Email Address:</label>
+    <br>
+  <input type="email" placeholder="example@domain.com" required>
+    <br><br>
+      <label for="phone" >Phone Number: 
+    </label><br>
+    <input type="number" placeholder="0123456789"required><br><br>
+    <label for="bottons">Perferred Contact Method</label><br>
+    <input type="radio"  name="fav_language" value="email"required>
+  <label for="email">Email</label><br>
+  <input type="radio" name="fav_language" value="number"required>
+  <label for="number">Number</label><br><br>
+    <label for="checkbox">Services intersted in:</label><br>
+     <input type="checkbox" id="1"  value="Web Design">
+  <label for=""> Web Design</label><br>
+  <input type="checkbox" id="2" value="SEO">
+  <label for="">SEO</label><br>
+  <input type="checkbox" id="3"  value="Hosting">
+  <label for="">Hosting</label><br><br> 
+    <label for="city">City:</label><br>
+    <select id="city" name="city" required>
+      <option>--Select City--</option>
+      <option>Cairo</option>
+      <option>Alexandria</option>
+      <option>Giza</option>
+    </select><br><br>
+    <label for="message">Your Message:</label><br>
+    <textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here..." required=""></textarea><br><br>
+
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
