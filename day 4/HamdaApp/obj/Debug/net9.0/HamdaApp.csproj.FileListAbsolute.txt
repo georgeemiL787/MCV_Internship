@@ -1,0 +1,14 @@
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\bin\Debug\net9.0\HamdaApp.exe
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\bin\Debug\net9.0\HamdaApp.deps.json
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\bin\Debug\net9.0\HamdaApp.runtimeconfig.json
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\bin\Debug\net9.0\HamdaApp.dll
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\bin\Debug\net9.0\HamdaApp.pdb
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.AssemblyInfoInputs.cache
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.AssemblyInfo.cs
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.dll
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\refint\HamdaApp.dll
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.pdb
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\HamdaApp.genruntimeconfig.cache
+C:\Users\George\OneDrive\Documents\GitHub\c++ problem\day3\HamdaApp\obj\Debug\net9.0\ref\HamdaApp.dll

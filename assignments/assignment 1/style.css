@@ -70,6 +70,37 @@ body {
     box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
+.main-table {
+    width: 90%;
+    margin: 30px auto 0 auto;
+    border-collapse: collapse;
+    background: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-table td {
+    border: 2px solid #0047a3;
+    padding: 16px 12px;
+    vertical-align: middle;
+    font-size: 1.05em;
+}
+
+.main-table .title {
+    font-weight: bold;
+    font-size: 1.1em;
+    background: #e6f0fa;
+    width: 180px;
+}
+
+.main-table .image img {
+    max-width: 180px;
+    max-height: 120px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
 @media (max-width: 900px) {
     .grid {
         grid-template-columns: 1fr;

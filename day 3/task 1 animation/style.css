@@ -1,0 +1,98 @@
+body{
+background-color: black;
+
+}
+#hamda {
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+}
+.emo {
+    font-size: 50px;
+}
+#boy {
+    position: absolute;
+    top: 340px;
+    left: 30px;
+    animation-name: boy;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+#girl {
+    position: absolute;
+    top: 340px;
+    left: 170px;
+    animation-name: girl;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+#muscle {
+    position: absolute;
+    top: 340px;
+    left: 300px;
+    animation-name: muscle;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    
+@keyframes example {
+    0% {background-color: black;
+    top:50%;
+    left:50%; 
+    }
+    25% {background-color: red;
+    top:20%;
+    left:50%;
+    
+    }
+    50% {background-color: blue;
+    top:20%;
+    left:20%;
+    }
+    75% {background-color: green;
+    top:50%;
+    left:20%;
+    }
+    100% {background-color: black;
+    top:50%;
+    left:50%;  
+}
+}
+@keyframes boy {
+    from{
+        top:340px;        
+    }
+    to{
+        top: 200px;
+    }
+}
+@keyframes girl {
+    from{
+        left:90px;        
+    }
+    to{
+        left: 240px;
+    }
+}
+@keyframes muscle {
+    from{
+        rotate: -15deg;        
+    }
+    to{
+        rotate: 15deg;  
+    }
+}
