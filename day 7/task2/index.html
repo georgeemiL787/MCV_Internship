@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocket Launch Animation</title>
+    <style>
+        body {
+            background: #222;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .ground {
+            width: 100vw;
+            height: 60px;
+            background: #444;
+            border-top: 8px solid #222;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .rocket-container {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+            transition: bottom 1s ease, filter 0.3s;
+        }
+        .rocket-img {
+            width: 120px;
+            user-select: none;
+            pointer-events: none;
+        }
+        .controls {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 3;
+            display: flex;
+        }
+        button {
+            padding: 10px 18px;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            border: none;
+            background: #ff9800;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px #0006;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #e65100;
+        }
+        .launching {
+            animation: launch 3s ease forwards;
+        }
+        
+        @keyframes launch {
+            0% { bottom: 60px; filter: brightness(1); }
+            20% { filter: brightness(1.4); }
+            40% { filter: brightness(1.8); }
+            60% { filter: brightness(2.2); }
+            80% { filter: brightness(2.4); }
+            100% { bottom: 110vh; filter: brightness(2.6); }
+        }
+    </style>
+</head>
+<body>
+    <div class="ground"></div>
+    <div class="rocket-container" id="rocketContainer" style="bottom: 60px;">
+        <img id="rocketImg" class="rocket-img" src="rocket_without_fire-removebg-preview.png" alt="Rocket">
+    </div>
+    <div class="controls">
+        <button id="launchBtn">Launch</button>
+    </div>
+    <script>
+        let rocketContainer = document.getElementById('rocketContainer');
+        let rocketImg = document.getElementById('rocketImg');
+        let launchBtn = document.getElementById('launchBtn');
+
+        let isAnimating = false;
+
+        function showRocketWithFire() {
+            rocketImg.src = 'rocket_with_fire-removebg-preview.png';
+        }
+
+        function showRocketWithoutFire() {
+            rocketImg.src = 'rocket_without_fire-removebg-preview.png';
+        }
+
+        function resetRocketPosition() {
+            rocketContainer.style.bottom = '60px';
+        }
+
+        function launchRocket() {
+            if (isAnimating) return;
+            isAnimating = true;
+            showRocketWithFire();
+            rocketContainer.classList.add('launching');
+        }
+
+        launchBtn.onclick = launchRocket;
+
+        rocketContainer.addEventListener('animationend', (e) => {
+            if (e.animationName === 'launch') {
+                rocketContainer.classList.remove('launching');
+                setTimeout(() => {
+                    resetRocketPosition();
+                    showRocketWithoutFire();
+                    isAnimating = false;
+                }, 0);
+            }
+        });
+
+        resetRocketPosition();
+        showRocketWithoutFire();
+    </script>
+</body>
+</html>

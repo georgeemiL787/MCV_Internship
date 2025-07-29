@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Magic Fortune Button</h1>
+        <button id="fortuneBtn">Get Your Fortune 🍀</button>
+        <p id="fortuneText"></p>
+
+    </div>
+    <script>
+      const fortunes = [
+        "You will forget a semicolon but JS will forgive you.",
+        "A bug will vanish after a coffee break.",
+        "Your code will compile on the first try.",
+        "You will teach someone something new today.",
+        "A mysterious error will resolve itself.",
+        "You will write elegant code.",
+        "A new idea will spark your creativity."
+      ];
+
+      let y=document.getElementById('fortuneBtn') 
+      y.onclick = function() {
+        let x = fortunes[Math.floor(Math.random() * fortunes.length)];
+        document.getElementById('fortuneText').textContent = x;
+      };
+    </script>
+</body>
+</html>
