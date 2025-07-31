@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\George\\OneDrive\\Documents\\GitHub\\MCV_Internship\\day 9\\taskapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F253439A-ED0F-4B44-A281-765347522AC5}|taskapp\\taskapp.csproj|c:\\users\\george\\onedrive\\documents\\github\\mcv_internship\\day 9\\taskapp\\taskapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F253439A-ED0F-4B44-A281-765347522AC5}|taskapp\\taskapp.csproj|solutionrelative:taskapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\George\\OneDrive\\Documents\\GitHub\\MCV_Internship\\day 9\\taskapp\\taskapp\\appsettings.json",
+              "RelativeDocumentMoniker": "taskapp\\appsettings.json",
+              "ToolTip": "C:\\Users\\George\\OneDrive\\Documents\\GitHub\\MCV_Internship\\day 9\\taskapp\\taskapp\\appsettings.json",
+              "RelativeToolTip": "taskapp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T12:50:42.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

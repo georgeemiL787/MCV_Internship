@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HamdaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e32929771496b886cb3dfab0f7900e55f9f87e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("HamdaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HamdaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

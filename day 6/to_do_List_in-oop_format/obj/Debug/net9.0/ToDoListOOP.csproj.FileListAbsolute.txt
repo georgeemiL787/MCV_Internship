@@ -1,0 +1,15 @@
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\bin\Debug\net9.0\ToDoListOOP.exe
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\bin\Debug\net9.0\ToDoListOOP.deps.json
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\bin\Debug\net9.0\ToDoListOOP.runtimeconfig.json
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\bin\Debug\net9.0\ToDoListOOP.dll
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\bin\Debug\net9.0\ToDoListOOP.pdb
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.AssemblyInfoInputs.cache
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.AssemblyInfo.cs
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.csproj.CoreCompileInputs.cache
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.sourcelink.json
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.dll
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\refint\ToDoListOOP.dll
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.pdb
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ToDoListOOP.genruntimeconfig.cache
+C:\Users\George\OneDrive\Documents\GitHub\MCV_Internship\day 6\to_do_List_in-oop_format\obj\Debug\net9.0\ref\ToDoListOOP.dll
