@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        #fortuneBtn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        #fortuneBtn:hover {
+            background-color: #45a049;
+        }
+
+        #fortuneBtn:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        #fortuneText {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            min-height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Magic Fortune Button</h1>
+        <button id="fortuneBtn">Get Your Fortune 🍀</button>
+        <p id="fortuneText">Click the button to reveal your fortune!</p>
+    </div>
+    <script>
+      const fortunes = [
+        "You will forget a semicolon but JS will forgive you.",
+        "A bug will vanish after a coffee break.",
+        "Your code will compile on the first try.",
+        "You will teach someone something new today.",
+        "A mysterious error will resolve itself.",
+        "You will write elegant code.",
+        "A new idea will spark your creativity."
+      ];
+
+
+      function delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+
+
+      async function getFortuneWithDelay() {
+        const fortuneBtn = document.getElementById('fortuneBtn');
+        const fortuneText = document.getElementById('fortuneText');
+        
+        fortuneBtn.disabled = true;
+        fortuneBtn.textContent = "Consulting the stars... ✨";
+        fortuneText.textContent = "Please wait...";
+        
+        await delay(2000);
+        
+        const randomFortune = fortunes[Math.floor(Math.random() * fortunes.length)];
+        
+        fortuneText.textContent = randomFortune;
+        
+        fortuneBtn.disabled = false;
+        fortuneBtn.textContent = "Get Your Fortune 🍀";
+      }
+
+      let y = document.getElementById('fortuneBtn');
+      y.onclick = getFortuneWithDelay;
+    </script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>All To-Dos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+    }
+
+    .todo-container {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      margin-left: 140px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      max-height: 300px;
+      overflow-y: auto;
+    }
+
+    li {
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #e9f0ff;
+      border-left: 5px solid #007bff;
+      border-radius: 5px;
+    }
+
+    li.completed {
+      background-color: #d4edda;
+      border-left-color: #28a745;
+      text-decoration: line-through;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo-container">
+    <h2>20 To-Dos</h2>
+    <button onclick="fetchAllTodos()">Load To-Dos</button>
+    <ul id="todo-list"></ul>
+  </div>
+
+  <script>
+    function fetchAllTodos() {
+      fetch('https://jsonplaceholder.typicode.com/todos')
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          var list = document.getElementById('todo-list');
+          list.innerHTML = '';
+          for (var i = 0; i < 20; i++) {
+            var todo = data[i];
+            var li = document.createElement('li');
+            li.textContent = todo.title;
+
+            if (todo.completed) {
+              li.classList.add('completed');
+            }
+
+            list.appendChild(li);
+          }
+        })
+     
+    }
+  </script>
+
+</body>
+</html>
